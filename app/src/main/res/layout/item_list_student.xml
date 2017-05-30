@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+    <TextView
+        android:id="@+id/tv_id"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="1"
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:paddingLeft="18dp"
+            android:id="@+id/tv_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Hoang nhat to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="18dp"
+            android:id="@+id/tv_number"
+            android:text="01234 210 xxx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="18dp"
+            android:id="@+id/tv_address"
+            android:text="Nho Quan ,Ninh Binh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="18dp"
+            android:id="@+id/tv_email"
+            android:text="nito96nb@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
